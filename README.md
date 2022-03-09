@@ -1,5 +1,8 @@
 # Project_py
 =================================================================================================================
+
+
+
 import csv
 import os
 from wsgiref import headers 
@@ -49,11 +52,13 @@ print(Pro.func())
 
 ===================================================================================
 
+
 import pandasql as ps
 import pandas as pd
  
  
 #converting the data in dictionary into table format 
+
 def func1(val):
     new = pd.DataFrame.from_dict(val)
     return new
